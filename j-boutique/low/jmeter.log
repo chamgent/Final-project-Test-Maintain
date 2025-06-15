@@ -1,0 +1,298 @@
+2025-06-09 15:10:04,159 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-06-09 15:10:04,176 INFO o.a.j.JMeter: Loading user properties from: C:\Downloads\apache-jmeter-5.6.3\bin\user.properties
+2025-06-09 15:10:04,177 INFO o.a.j.JMeter: Loading system properties from: C:\Downloads\apache-jmeter-5.6.3\bin\system.properties
+2025-06-09 15:10:04,184 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-06-09 15:10:04,184 INFO o.a.j.JMeter: Version 5.6.3
+2025-06-09 15:10:04,184 INFO o.a.j.JMeter: java.version=1.8.0_391
+2025-06-09 15:10:04,184 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-06-09 15:10:04,184 INFO o.a.j.JMeter: os.name=Windows 11
+2025-06-09 15:10:04,184 INFO o.a.j.JMeter: os.arch=amd64
+2025-06-09 15:10:04,184 INFO o.a.j.JMeter: os.version=10.0
+2025-06-09 15:10:04,184 INFO o.a.j.JMeter: file.encoding=GBK
+2025-06-09 15:10:04,184 INFO o.a.j.JMeter: java.awt.headless=true
+2025-06-09 15:10:04,185 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-06-09 15:10:04,185 INFO o.a.j.JMeter: Available Processors =12
+2025-06-09 15:10:04,189 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-06-09 15:10:04,189 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-06-09 15:10:04,189 INFO o.a.j.JMeter: JMeterHome=C:\Downloads\apache-jmeter-5.6.3
+2025-06-09 15:10:04,189 INFO o.a.j.JMeter: user.dir  =C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low
+2025-06-09 15:10:04,190 INFO o.a.j.JMeter: PWD       =C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low
+2025-06-09 15:10:04,192 INFO o.a.j.JMeter: IP: 172.23.144.1 Name: DESKTOP-QDAATL2 FullName: DESKTOP-QDAATL2.mshome.net
+2025-06-09 15:10:04,217 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\.\results'
+2025-06-09 15:10:04,220 INFO o.a.j.s.FileServer: Default base='C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low'
+2025-06-09 15:10:04,222 INFO o.a.j.s.FileServer: Set new base='C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\.'
+2025-06-09 15:10:04,358 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-06-09 15:10:04,386 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-06-09 15:10:04,392 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-06-09 15:10:04,399 INFO o.a.j.s.SaveService: Loading file: .\j-boutique.jmx
+2025-06-09 15:10:04,505 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-09 15:10:04,505 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-09 15:10:04,505 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-09 15:10:04,505 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-09 15:10:04,505 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-06-09 15:10:04,505 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-06-09 15:10:04,934 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-06-09 15:10:04,942 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-06-09 15:10:04,942 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: ./results/results.csv
+2025-06-09 15:10:04,942 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Downloads\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2025-06-09 15:10:04,943 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-06-09 15:10:04,949 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-06-09 15:10:04,953 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-06-09 15:10:04,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-06-09 15:10:04,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-06-09 15:10:04,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-06-09 15:10:04,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-06-09 15:10:04,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-06-09 15:10:04,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-06-09 15:10:04,962 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-06-09 15:10:04,969 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,969 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,971 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,971 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,971 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,971 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,971 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,972 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,972 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,972 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-06-09 15:10:04,974 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-06-09 15:10:04,974 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-06-09 15:10:04,974 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-06-09 15:10:04,975 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-06-09 15:10:04,975 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-06-09 15:10:04,975 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-06-09 15:10:04,985 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-06-09 15:10:04,987 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-06-09 15:10:04,987 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-06-09 15:10:04,995 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-06-09 15:10:04,995 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-06-09 15:10:05,341 INFO o.a.j.r.ClassFinder: Will scan jar C:\Downloads\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-webdriver-4.13.0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-09 15:10:05,365 INFO o.a.j.r.ClassFinder: Will scan jar C:\Downloads\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-09 15:10:05,784 INFO o.a.j.r.ResultCollector: Folder at C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\results was created
+2025-06-09 15:10:05,786 INFO o.a.j.JMeter: Running test (1749453005786)
+2025-06-09 15:10:05,857 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Low Load Thread Group
+2025-06-09 15:10:05,857 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Low Load Thread Group.
+2025-06-09 15:10:05,857 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-06-09 15:10:05,858 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=30 delayedStart=false
+2025-06-09 15:10:05,866 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-1
+2025-06-09 15:10:05,894 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-06-09 15:10:05,895 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-06-09 15:10:06,461 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-2
+2025-06-09 15:10:06,631 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-QDAATL2
+2025-06-09 15:10:06,639 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-06-09 15:10:06,641 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-06-09 15:10:06,641 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-06-09 15:10:06,641 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-06-09 15:10:06,641 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-06-09 15:10:07,061 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-3
+2025-06-09 15:10:07,660 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-4
+2025-06-09 15:10:08,260 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-5
+2025-06-09 15:10:08,860 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-6
+2025-06-09 15:10:09,460 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-7
+2025-06-09 15:10:10,061 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-8
+2025-06-09 15:10:10,661 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-9
+2025-06-09 15:10:11,259 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-10
+2025-06-09 15:10:11,860 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-11
+2025-06-09 15:10:12,459 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-12
+2025-06-09 15:10:13,059 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-13
+2025-06-09 15:10:13,661 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-14
+2025-06-09 15:10:14,259 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-15
+2025-06-09 15:10:14,859 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-16
+2025-06-09 15:10:15,459 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-17
+2025-06-09 15:10:16,060 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-18
+2025-06-09 15:10:16,660 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-19
+2025-06-09 15:10:17,260 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-20
+2025-06-09 15:10:17,859 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-21
+2025-06-09 15:10:18,460 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-22
+2025-06-09 15:10:19,059 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-23
+2025-06-09 15:10:19,660 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-24
+2025-06-09 15:10:20,260 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-25
+2025-06-09 15:10:20,859 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-26
+2025-06-09 15:10:21,460 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-27
+2025-06-09 15:10:22,066 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-28
+2025-06-09 15:10:22,666 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-29
+2025-06-09 15:10:23,259 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-30
+2025-06-09 15:10:23,860 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-31
+2025-06-09 15:10:24,467 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-32
+2025-06-09 15:10:25,059 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-33
+2025-06-09 15:10:25,659 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-34
+2025-06-09 15:10:26,259 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-35
+2025-06-09 15:10:26,860 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-36
+2025-06-09 15:10:27,460 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-37
+2025-06-09 15:10:28,059 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-38
+2025-06-09 15:10:28,659 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-39
+2025-06-09 15:10:29,260 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-40
+2025-06-09 15:10:29,859 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-41
+2025-06-09 15:10:30,085 INFO o.a.j.r.Summariser: summary +   1991 in 00:00:24 =   82.0/s Avg:   169 Min:     3 Max:  1896 Err:  1612 (80.96%) Active: 41 Started: 41 Finished: 0
+2025-06-09 15:10:30,459 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-42
+2025-06-09 15:10:31,060 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-43
+2025-06-09 15:10:31,659 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-44
+2025-06-09 15:10:32,260 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-45
+2025-06-09 15:10:32,860 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-46
+2025-06-09 15:10:33,458 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-47
+2025-06-09 15:10:34,059 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-48
+2025-06-09 15:10:34,670 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-49
+2025-06-09 15:10:35,259 INFO o.a.j.t.JMeterThread: Thread started: Low Load Thread Group 1-50
+2025-06-09 15:11:00,091 INFO o.a.j.r.Summariser: summary +   3462 in 00:00:30 =  115.4/s Avg:   305 Min:     3 Max:  2579 Err:  2764 (79.84%) Active: 50 Started: 50 Finished: 0
+2025-06-09 15:11:00,093 INFO o.a.j.r.Summariser: summary =   5453 in 00:00:54 =  100.4/s Avg:   255 Min:     3 Max:  2579 Err:  4376 (80.25%)
+2025-06-09 15:11:30,027 INFO o.a.j.r.Summariser: summary +   3297 in 00:00:30 =  110.1/s Avg:   182 Min:     3 Max:  1642 Err:  2637 (79.98%) Active: 50 Started: 50 Finished: 0
+2025-06-09 15:11:30,030 INFO o.a.j.r.Summariser: summary =   8750 in 00:01:24 =  103.9/s Avg:   228 Min:     3 Max:  2579 Err:  7013 (80.15%)
+2025-06-09 15:12:00,002 INFO o.a.j.r.Summariser: summary +   3496 in 00:00:30 =  116.6/s Avg:   165 Min:     2 Max:  1653 Err:  2802 (80.15%) Active: 50 Started: 50 Finished: 0
+2025-06-09 15:12:00,003 INFO o.a.j.r.Summariser: summary =  12246 in 00:01:54 =  107.2/s Avg:   210 Min:     2 Max:  2579 Err:  9815 (80.15%)
+2025-06-09 15:12:30,000 INFO o.a.j.r.Summariser: summary +   3057 in 00:00:30 =  101.9/s Avg:   184 Min:     2 Max:  2366 Err:  2438 (79.75%) Active: 50 Started: 50 Finished: 0
+2025-06-09 15:12:30,001 INFO o.a.j.r.Summariser: summary =  15303 in 00:02:24 =  106.1/s Avg:   205 Min:     2 Max:  2579 Err: 12253 (80.07%)
+2025-06-09 15:13:00,025 INFO o.a.j.r.Summariser: summary +   2689 in 00:00:30 =   89.6/s Avg:   116 Min:     3 Max:  1383 Err:  2152 (80.03%) Active: 50 Started: 50 Finished: 0
+2025-06-09 15:13:00,028 INFO o.a.j.r.Summariser: summary =  17992 in 00:02:54 =  103.3/s Avg:   191 Min:     2 Max:  2579 Err: 14405 (80.06%)
+2025-06-09 15:13:30,001 INFO o.a.j.r.Summariser: summary +   2235 in 00:00:30 =   74.6/s Avg:   113 Min:     3 Max:  1369 Err:  1783 (79.78%) Active: 50 Started: 50 Finished: 0
+2025-06-09 15:13:30,002 INFO o.a.j.r.Summariser: summary =  20227 in 00:03:24 =   99.0/s Avg:   183 Min:     2 Max:  2579 Err: 16188 (80.03%)
+2025-06-09 15:14:00,028 INFO o.a.j.r.Summariser: summary +   2326 in 00:00:30 =   77.5/s Avg:    83 Min:     3 Max:   747 Err:  1866 (80.22%) Active: 50 Started: 50 Finished: 0
+2025-06-09 15:14:00,034 INFO o.a.j.r.Summariser: summary =  22553 in 00:03:54 =   96.3/s Avg:   172 Min:     2 Max:  2579 Err: 18054 (80.05%)
+2025-06-09 15:14:30,045 INFO o.a.j.r.Summariser: summary +   2420 in 00:00:30 =   80.6/s Avg:    95 Min:     2 Max:   832 Err:  1935 (79.96%) Active: 50 Started: 50 Finished: 0
+2025-06-09 15:14:30,046 INFO o.a.j.r.Summariser: summary =  24973 in 00:04:24 =   94.5/s Avg:   165 Min:     2 Max:  2579 Err: 19989 (80.04%)
+2025-06-09 15:15:00,003 INFO o.a.j.r.Summariser: summary +   2069 in 00:00:30 =   69.1/s Avg:   117 Min:     3 Max:  1439 Err:  1656 (80.04%) Active: 50 Started: 50 Finished: 0
+2025-06-09 15:15:00,004 INFO o.a.j.r.Summariser: summary =  27042 in 00:04:54 =   91.9/s Avg:   161 Min:     2 Max:  2579 Err: 21645 (80.04%)
+2025-06-09 15:15:05,888 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-9
+2025-06-09 15:15:05,888 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-9
+2025-06-09 15:15:05,890 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-11
+2025-06-09 15:15:05,890 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-11
+2025-06-09 15:15:05,978 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-41
+2025-06-09 15:15:05,978 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-27
+2025-06-09 15:15:05,978 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-41
+2025-06-09 15:15:05,978 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-2
+2025-06-09 15:15:05,978 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-27
+2025-06-09 15:15:05,978 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-2
+2025-06-09 15:15:05,978 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-35
+2025-06-09 15:15:05,979 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-35
+2025-06-09 15:15:05,979 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-3
+2025-06-09 15:15:05,979 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-3
+2025-06-09 15:15:05,980 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-39
+2025-06-09 15:15:05,980 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-39
+2025-06-09 15:15:06,056 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-34
+2025-06-09 15:15:06,056 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-34
+2025-06-09 15:15:06,060 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-40
+2025-06-09 15:15:06,060 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-46
+2025-06-09 15:15:06,060 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-40
+2025-06-09 15:15:06,060 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-46
+2025-06-09 15:15:06,062 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-5
+2025-06-09 15:15:06,062 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-5
+2025-06-09 15:15:06,074 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-12
+2025-06-09 15:15:06,074 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-12
+2025-06-09 15:15:06,083 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-15
+2025-06-09 15:15:06,083 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-15
+2025-06-09 15:15:06,102 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-45
+2025-06-09 15:15:06,102 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-45
+2025-06-09 15:15:06,121 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-44
+2025-06-09 15:15:06,121 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-44
+2025-06-09 15:15:06,121 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-28
+2025-06-09 15:15:06,121 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-28
+2025-06-09 15:15:06,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-14
+2025-06-09 15:15:06,124 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-14
+2025-06-09 15:15:06,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-25
+2025-06-09 15:15:06,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-17
+2025-06-09 15:15:06,127 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-25
+2025-06-09 15:15:06,127 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-17
+2025-06-09 15:15:06,129 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-30
+2025-06-09 15:15:06,129 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-30
+2025-06-09 15:15:06,155 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-50
+2025-06-09 15:15:06,155 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-50
+2025-06-09 15:15:06,158 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-10
+2025-06-09 15:15:06,158 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-47
+2025-06-09 15:15:06,159 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-47
+2025-06-09 15:15:06,159 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-10
+2025-06-09 15:15:06,159 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-6
+2025-06-09 15:15:06,159 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-6
+2025-06-09 15:15:06,160 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-21
+2025-06-09 15:15:06,160 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-21
+2025-06-09 15:15:06,160 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-36
+2025-06-09 15:15:06,160 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-36
+2025-06-09 15:15:06,160 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-43
+2025-06-09 15:15:06,161 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-43
+2025-06-09 15:15:06,162 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-38
+2025-06-09 15:15:06,162 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-38
+2025-06-09 15:15:06,165 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-8
+2025-06-09 15:15:06,165 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-8
+2025-06-09 15:15:06,174 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-49
+2025-06-09 15:15:06,174 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-49
+2025-06-09 15:15:06,176 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-26
+2025-06-09 15:15:06,176 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-26
+2025-06-09 15:15:06,183 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-33
+2025-06-09 15:15:06,183 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-33
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-37
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-22
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-29
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-13
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-7
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-22
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-37
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-24
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-29
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-7
+2025-06-09 15:15:06,260 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-13
+2025-06-09 15:15:06,261 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-48
+2025-06-09 15:15:06,261 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-24
+2025-06-09 15:15:06,261 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-48
+2025-06-09 15:15:06,262 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-4
+2025-06-09 15:15:06,262 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-4
+2025-06-09 15:15:06,263 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-20
+2025-06-09 15:15:06,263 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-20
+2025-06-09 15:15:06,263 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-1
+2025-06-09 15:15:06,264 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-1
+2025-06-09 15:15:06,264 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-19
+2025-06-09 15:15:06,265 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-19
+2025-06-09 15:15:06,265 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-32
+2025-06-09 15:15:06,265 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-32
+2025-06-09 15:15:06,266 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-42
+2025-06-09 15:15:06,265 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-23
+2025-06-09 15:15:06,266 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-42
+2025-06-09 15:15:06,266 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-23
+2025-06-09 15:15:06,279 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-18
+2025-06-09 15:15:06,279 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-18
+2025-06-09 15:15:06,367 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-16
+2025-06-09 15:15:06,367 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-16
+2025-06-09 15:15:06,380 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Low Load Thread Group 1-31
+2025-06-09 15:15:06,380 INFO o.a.j.t.JMeterThread: Thread finished: Low Load Thread Group 1-31
+2025-06-09 15:15:06,381 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-06-09 15:15:06,486 INFO o.a.j.r.Summariser: summary +    511 in 00:00:06 =   78.8/s Avg:    83 Min:     3 Max:   675 Err:   407 (79.65%) Active: 0 Started: 50 Finished: 50
+2025-06-09 15:15:06,487 INFO o.a.j.r.Summariser: summary =  27553 in 00:05:01 =   91.6/s Avg:   160 Min:     2 Max:  2579 Err: 22052 (80.03%)
+2025-06-09 15:15:06,489 INFO o.a.j.JMeter: Generating Dashboard
+2025-06-09 15:15:06,489 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-06-09 15:15:06,544 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-06-09 15:15:09,125 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-06-09 15:15:09,125 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-06-09 15:15:09,132 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-06-09 15:15:09,132 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-06-09 15:15:09,161 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-06-09 15:15:09,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-06-09 15:15:09,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-06-09 15:15:09,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-06-09 15:15:09,466 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-06-09 15:15:09,474 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-06-09 15:15:09,475 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-06-09 15:15:09,475 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-06-09 15:15:09,827 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-06-09 15:15:09,830 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 192871 samples
+2025-06-09 15:15:09,830 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-06-09 15:15:09,831 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-06-09 15:15:09,831 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-06-09 15:15:09,832 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-06-09 15:15:09,832 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-06-09 15:15:09,832 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-06-09 15:15:09,840 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-06-09 15:15:09,841 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-06-09 15:15:09,841 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-06-09 15:15:09,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-06-09 15:15:09,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 413295 samples
+2025-06-09 15:15:09,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 82659 samples
+2025-06-09 15:15:09,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 27553 samples
+2025-06-09 15:15:09,845 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 27553 samples produced in 3s 237 ms on channel 0
+2025-06-09 15:15:09,845 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-06-09 15:15:10,021 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary?in context
+2025-06-09 15:15:10,022 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-06-09 15:15:10,023 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-06-09 15:15:10,023 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-06-09 15:15:10,024 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\.\results\statistics.json
+2025-06-09 15:15:10,105 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-06-09 15:15:10,110 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\.\results
+2025-06-09 15:15:10,433 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\.\results, creating folder structure
+2025-06-09 15:15:10,440 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Downloads\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\.\results', got message: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\.\results, found non empty folder with following content [C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\.\results\results.csv, C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\.\results\statistics.json], will be ignored
+2025-06-09 15:15:11,064 INFO o.a.j.JMeter: Dashboard generated

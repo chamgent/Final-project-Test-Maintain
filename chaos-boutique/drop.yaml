@@ -1,0 +1,23 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: frontend-to-adservice-loss
+  namespace: boutique
+spec:
+  action: loss
+  mode: one
+  selector:
+    pods:
+      boutique:
+        - frontend-76dbbddfc5-q6l4g 
+  direction: to
+  target:
+    selector:
+      pods:
+        boutique:
+          - adservice-54fdcb4646-nnjgf
+    mode: all
+  loss:
+    loss: '20'
+    correlation: '0'
+  duration: '180s'

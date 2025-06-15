@@ -1,0 +1,13 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: PodChaos
+metadata:
+  name: paymentservice-kill
+  namespace: boutique
+spec:
+  action: pod-kill
+  mode: one
+  selector:
+    pods:
+      boutique:
+        - paymentservice-9ff6ffd6-qjtr2  
+  duration: '60s'  # 短暂 kill，观察重启过程

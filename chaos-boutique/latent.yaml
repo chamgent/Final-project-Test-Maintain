@@ -1,0 +1,24 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: frontend-to-productcatalogservice-delay
+  namespace: boutique
+spec:
+  action: delay
+  mode: one
+  selector:
+    pods:
+      boutique:
+        - frontend-76dbbddfc5-q6l4g
+  direction: to
+  target:
+    selector:
+      pods:
+        online-boutique:
+          - productcatalogservice-0
+    mode: all
+  delay:
+    latency: '300ms'
+    correlation: '0'
+    jitter: '50ms'
+  duration: '300s'

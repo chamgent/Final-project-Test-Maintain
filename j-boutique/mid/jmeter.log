@@ -1,0 +1,144 @@
+2025-06-09 15:47:50,412 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-06-09 15:47:50,423 INFO o.a.j.JMeter: Loading user properties from: C:\Downloads\apache-jmeter-5.6.3\bin\user.properties
+2025-06-09 15:47:50,424 INFO o.a.j.JMeter: Loading system properties from: C:\Downloads\apache-jmeter-5.6.3\bin\system.properties
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: Version 5.6.3
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: java.version=1.8.0_391
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: os.name=Windows 11
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: os.arch=amd64
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: os.version=10.0
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: file.encoding=GBK
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: java.awt.headless=null
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-06-09 15:47:50,429 INFO o.a.j.JMeter: Available Processors =12
+2025-06-09 15:47:50,433 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-06-09 15:47:50,433 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-06-09 15:47:50,433 INFO o.a.j.JMeter: JMeterHome=C:\Downloads\apache-jmeter-5.6.3
+2025-06-09 15:47:50,433 INFO o.a.j.JMeter: user.dir  =C:\Users\Chamgent\Desktop\test&maintain\j-boutique\mid
+2025-06-09 15:47:50,434 INFO o.a.j.JMeter: PWD       =C:\Users\Chamgent\Desktop\test&maintain\j-boutique\mid
+2025-06-09 15:47:50,435 INFO o.a.j.JMeter: IP: 172.23.144.1 Name: DESKTOP-QDAATL2 FullName: DESKTOP-QDAATL2.mshome.net
+2025-06-09 15:47:50,456 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2025-06-09 15:47:50,709 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2025-06-09 15:47:51,884 INFO o.a.j.r.ClassFinder: Will scan jar C:\Downloads\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-webdriver-4.13.0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-09 15:47:51,909 INFO o.a.j.r.ClassFinder: Will scan jar C:\Downloads\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-09 15:47:52,138 INFO o.a.j.r.ClassFinder: Will scan jar C:\Downloads\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-webdriver-4.13.0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-09 15:47:52,141 INFO o.a.j.r.ClassFinder: Will scan jar C:\Downloads\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-09 15:47:52,914 INFO o.j.r.JARSourceHTTP: Found cached repo
+2025-06-09 15:47:53,215 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.11, jpgc-webdriver=4.13.0.2, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2025-06-09 15:52:13,437 INFO o.a.j.s.FileServer: Default base='C:\Users\Chamgent\Desktop\test&maintain\j-boutique\mid'
+2025-06-09 15:52:13,440 INFO o.a.j.g.a.Load: Loading file: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\j-boutique.jmx
+2025-06-09 15:52:13,440 INFO o.a.j.s.FileServer: Set new base='C:\Users\Chamgent\Desktop\test&maintain\j-boutique'
+2025-06-09 15:52:13,552 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-06-09 15:52:13,559 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-06-09 15:52:13,560 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-06-09 15:52:13,562 INFO o.a.j.s.SaveService: Loading file: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\j-boutique.jmx
+2025-06-09 15:52:13,563 WARN o.j.r.p.TestPlanAnalyzer: Failed read jmx file
+java.io.FileNotFoundException: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\j-boutique.jmx (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_391]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_391]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_391]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.readBytesFromFile(TestPlanAnalyzer.java:86) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.getNodeListWithClassNames(TestPlanAnalyzer.java:129) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.analyze(TestPlanAnalyzer.java:37) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.analyzeTestPlan(PluginSuggester.java:51) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.findPluginsToInstall(PluginSuggester.java:44) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.checkAndSuggest(PluginSuggester.java:28) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.logging.LoggerAppender.append(LoggerAppender.java:33) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:160) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:705) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:663) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:639) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:575) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:92) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:169) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2933) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2886) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2868) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2664) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:2429) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:184) ~[log4j-slf4j-impl-2.22.1.jar:2.22.1]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:425) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:131) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:103) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:74) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:83) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:65) ~[ApacheJMeter_core.jar:5.6.3]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_391]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_391]
+2025-06-09 15:52:13,598 WARN o.j.r.p.TestPlanAnalyzer: Cannot parse file: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\j-boutique.jmx
+org.xml.sax.SAXParseException: Premature end of file.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121) ~[?:1.8.0_391]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.getNodeListWithClassNames(TestPlanAnalyzer.java:130) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.analyze(TestPlanAnalyzer.java:37) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.analyzeTestPlan(PluginSuggester.java:51) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.findPluginsToInstall(PluginSuggester.java:44) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.checkAndSuggest(PluginSuggester.java:28) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.jmeterplugins.repository.logging.LoggerAppender.append(LoggerAppender.java:33) ~[jmeter-plugins-manager-1.11.jar:?]
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:160) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:705) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:663) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:639) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:575) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:92) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:169) ~[log4j-core-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2933) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2886) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2868) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2664) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:2429) ~[log4j-api-2.22.1.jar:2.22.1]
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:184) ~[log4j-slf4j-impl-2.22.1.jar:2.22.1]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:425) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:131) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:103) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:74) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:83) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:65) ~[ApacheJMeter_core.jar:5.6.3]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_391]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_391]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_391]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_391]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_391]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_391]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_391]
+2025-06-09 15:52:13,599 WARN o.a.j.g.a.Load: Error reading file. java.io.FileNotFoundException: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\j-boutique.jmx (系统找不到指定的文件。)
+2025-06-09 15:52:13,599 ERROR o.a.j.u.JMeterUtils: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\j-boutique.jmx (系统找不到指定的文件。)
+2025-06-09 15:52:22,635 INFO o.a.j.g.a.Load: Loading file: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\j-boutique.jmx
+2025-06-09 15:52:22,635 INFO o.a.j.s.FileServer: Set new base='C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low'
+2025-06-09 15:52:22,635 INFO o.a.j.s.SaveService: Loading file: C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low\j-boutique.jmx
+2025-06-09 15:52:22,799 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-09 15:52:22,799 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-09 15:52:22,799 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-09 15:52:22,799 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-09 15:52:22,799 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-06-09 15:52:22,800 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-06-09 15:52:23,151 INFO o.a.j.s.FileServer: Set new base='C:\Users\Chamgent\Desktop\test&maintain\j-boutique\low'
